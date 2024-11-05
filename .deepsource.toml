@@ -1,0 +1,22 @@
+version = 1
+
+[[analyzers]]
+name = "ansible"
+
+[[analyzers]]
+name = "java"
+
+  [analyzers.meta]
+  runtime_version = "11"
+
+[[analyzers]]
+name = "secrets"
+
+[[analyzers]]
+name = "docker"
+
+[[analyzers]]
+name = "go"
+
+  [analyzers.meta]
+  import_root = "github.com/wufandragon/hello-world"
